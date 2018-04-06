@@ -20,13 +20,13 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 
 # install base packages
-$ pip install -r requirements
+$ pip install -r requirements.txt
 
 # install our scripts into your new environment
-$ pip install .
+$ pip install -e .
 
 # edit your configuration files (use your favorite text editor)
-$ vi config/slack.ini config/lex.ini
+$ vi conf/slack.ini conf/lex.ini
 
 # run your bot
 $ bin/lexibot.py
