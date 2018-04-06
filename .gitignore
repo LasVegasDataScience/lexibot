@@ -99,3 +99,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# scratch files
+*.swp
+*.bak
+*.tmp
+*.old
+*.new
+.vscode/
+
+# local access
+/log
+/conf
