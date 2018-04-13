@@ -1,2 +1,0 @@
-# Lexibot - Slack Installation
-

@@ -52,7 +52,7 @@ Find any typos? Does our documenation resemble lies? Heaven forbid, a bug or wha
 First, fork this repository.
 
 ![fork icon](https://github.com/lasvegasdatascience/lexibot/blob/master/images/fork-icon.png)
-![fork icon](images/fork-icon.png)
+
 
 Next, clone this repository to your desktop to make changes.
 
