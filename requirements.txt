@@ -1,2 +1,3 @@
 slackclient==1.1.2
+git+https://github.com/yxes/pykinator
 
