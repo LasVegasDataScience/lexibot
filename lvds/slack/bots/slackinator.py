@@ -44,6 +44,7 @@ class Slackinator(SlackListen):
             return ("Hello, let's play a game I stole from akinator.com\n"
                     "Your mission is to pick character. They can be real "
                     "or from a movie, comic or game.\n"
+                    ":sunglasses:\n"
                     "I will ask you a series of questions and eventually "
                     "make a guess. You can force me to make a guess by "
                     "just typing *guess* or you can quit the game by "
