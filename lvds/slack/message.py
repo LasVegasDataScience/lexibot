@@ -9,6 +9,8 @@ class SlackMsg(SlackConnect):
 
     default_channel=None
 
+    ignore_interactive = False
+
 
     def __init__(self, username=None, default_channel=None):
         if username is None:
@@ -66,7 +68,7 @@ class SlackMsg(SlackConnect):
             channel = self.userid(channel[1:])
 
         ret = None
-        if sys.stdout.isatty():
+        if not self.ignore_interactive and sys.stdout.isatty():
             print("SLACK: [%s]: %s" % (channel, message))
         else:
             ret = sc.api_call(
